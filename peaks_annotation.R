@@ -54,8 +54,8 @@ annotate_peak <- function(bed_file,result_dir,txdb,prefix,tss_start=-2500,tss_en
 
 
 txdb <- TxDb.Mmusculus.UCSC.mm10.knownGene
-bed_file <- "/ddn/LiB/ganrui/project/chip-seq/data/analysis/examples/callpeak/SRR13292279/SRR13292279_peaks.narrowPeak"
-result_dir <- "/ddn/LiB/ganrui/project/chip-seq/data/analysis/examples/peaks_annotation"
+bed_file <- "/ddn/LiB/project/chip-seq/data/analysis/examples/callpeak/SRR13292279/SRR13292279_peaks.narrowPeak"
+result_dir <- "/ddn/LiB/project/chip-seq/data/analysis/examples/peaks_annotation"
 tss_start=-2500
 tss_end=2500
 flank_Distance = 500000
