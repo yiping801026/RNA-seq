@@ -233,9 +233,9 @@ def run_homer(sample_info_file,callpeak_dir,homer_dir,genome_file):
 if __name__ == '__main__':
 	#step1.create sample information
 
-	save_sample_info_file = "/ddn/LiB/ganrui/project/chip-seq/data/examples/chipseq_sample.txt"
-	result_dir = "/ddn/LiB/ganrui/project/chip-seq/data/analysis/examples"
-	sample_dir = "/ddn/LiB/ganrui/project/chip-seq/data/examples"	
+	save_sample_info_file = "/ddn/LiB/project/chip-seq/data/examples/chipseq_sample.txt"
+	result_dir = "/ddn/LiB/project/chip-seq/data/analysis/examples"
+	sample_dir = "/ddn/LiB/project/chip-seq/data/examples"	
 	prefix = "chipseq"
 	mouse_bowtie2_index_file = "/ddn/LiB/data/ref_genome/mouse/bowtie2_index/mm10"
 
